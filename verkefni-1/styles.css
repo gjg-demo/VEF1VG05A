@@ -1,0 +1,41 @@
+/* pc[alt+ctrl]+7 - mac[opt]+7 { +9 } */
+body {
+    max-width: 768px;
+    margin: 2rem auto; /* top + bottom */
+    padding: 2rem;
+    font-family: sans-serif;
+    background-color: darkblue;
+    color: white;
+    line-height: 1.5; 
+    border: 1px solid white; /* -width; -style; -color */
+}
+h1 {
+    color: rgb(245, 215, 215);
+}
+h2 {
+    color: rgb(213, 213, 248);
+}
+h3 {
+    color:rgb(255, 228, 228);
+}
+/* *** hulduklasar link, visited *** */
+a:link {
+    color:rgb(255, 240, 154); 
+    text-decoration:underline;
+}
+a:visited {
+    color:rgb(255, 228, 228); 
+    text-decoration:none;
+}
+a:hover,
+a:active {
+    color:orange; 
+    text-decoration:none;
+}
+.poem {
+    padding-left: 3rem;
+    color:rgb(255, 240, 154);
+}
+.poem em {
+    color:orange;
+}
